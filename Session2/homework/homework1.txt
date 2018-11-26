@@ -1,0 +1,15 @@
+1. A Boolean value is either true or false
+ex: a ==4
+    b !=4
+    c >3
+2. 
+A flowchart is a type of diagram that represents an algorithm, workflow or process, showing the steps as boxes of various kinds
+3. Inside each condition, there is another condition
+Ex: 
+if x ==a:
+    print("a is found)
+else:
+    if x%2==0:
+        print("X is not odd)
+    else:
+        print("X is odd")
