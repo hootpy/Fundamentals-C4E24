@@ -1,0 +1,6 @@
+To check variable type, use the following command:
+type()
+
+
+If the data is not in the right format, it will say syntax Error
+e.x: printt, fromm, impỏt 
