@@ -6,6 +6,8 @@
 # print(items)
 
 items = ["Bun dau", "Bun bo", "Bun dieu"]
-print(items)
-items.append("Bun ca")
-print(items)
+
+print(items[-1])
+# print(items)
+# items.append("Bun ca")
+# print(items)
