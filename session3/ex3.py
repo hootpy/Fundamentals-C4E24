@@ -2,9 +2,13 @@ items = ["Books", "Games", "Movies"]
 
 print("Here is your favorite thing so far", *items,sep=", ")
 
+while True:
+    n = int(input("Position you want to update?: "))
+    if n > 0 and n <= int(len(items)):
+        break 
+    else:
+        print("Invalid position!")
+m = input("Your replacing favorite?: ")
 
-n = input("Name 1 thing you want to add: ")
-
-items.append(n)
-
+items[n-1] = m
 print(*items, sep=", ")
