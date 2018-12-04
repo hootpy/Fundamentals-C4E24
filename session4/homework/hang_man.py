@@ -40,7 +40,7 @@ while false_times < 5 and true_times < len(character):
         for m in range(len(character)):
             if character[m-1] == answ:
                 underline[m-1] = answ
-        true_times += 1
+                true_times += 1
     
     #neu sai thi tang so lan false time
     else:
