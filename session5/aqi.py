@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 import json
 
-url = "https://wind.waqi.info/nsearch/full/hanoi?n=4"
+url = "https://store.steampowered.com/api/appdetails?appids=730&filters=price_overview&cc=vn"
 
 
 #1. Open connection
@@ -14,8 +14,9 @@ raw_data = conn.read()
 text = raw_data.decode("utf-8")
 data = json.loads(text)
 
-results = data["results"]
-for i in results:
-    print("City:",i["s"]["n"][0])
-    print("Index:",i["s"]["a"])
-    print("******************************")
+# results = data["results"]
+# for i in results:
+#     print("City:",i["s"]["n"][0])
+#     print("Index:",i["s"]["a"])
+#     print("******************************")
+print(data)
