@@ -12,5 +12,14 @@ person = {
     "age": 25,
 }
 
-print(person["name"])
+person["age"] = 18
+person["status"] = False
+
+del person["city"]
+
+print(person["age"])
+print(person)
 print("name" in person)
+
+person["age"] += 1
+print(person)
