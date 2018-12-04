@@ -51,6 +51,7 @@ while false_times < 5 and true_times < len(character):
 #khi vong lap bi break
     #neu dung
 if true_times == len(character):
+    print(*underline, sep=" ")
     print("Bingo!")
 else:
     #neu sai
