@@ -7,8 +7,8 @@ person = {
 
 print(person)
 
-# for k in person:                          #lay theo key
-#     print(k, person[k], sep=": ")
+for k in person:                          #lay theo key
+    print(k, person[k], sep=": ")
 
 
 # for v in person.values():                 #lay theo value
